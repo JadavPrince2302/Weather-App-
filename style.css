@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:"Poppins", sans-serif;;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card  {
+    width: 30%;
+    height: 90%;
+    background-color: aquamarine;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+    gap: 15px;
+    margin-top: 45px;
+}
+
+.search input {
+    width: 55%;
+    height: 50px;
+    border-radius: 30px;
+    padding: 0 20px;
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.search button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.search button img {
+    object-fit: cover;
+    width: 20px;
+}
+
+.clouds {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35%;
+}
+
+.temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 400;
+    white-space: none;
+}
+
+.details {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.details img {
+    width: 50px;
+    height: 50px;
+}
+
+.humidity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    color: white;
+}
+
+.text >:nth-child(1) {
+    font-size: 1.5rem;
+}
